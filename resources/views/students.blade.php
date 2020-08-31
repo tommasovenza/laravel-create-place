@@ -11,9 +11,9 @@
     @foreach ($students as $student)
         
     <ul>
-        <li> Nome: {{$student['nome']}}</li>
-        <li> Nome: {{$student['cognome']}}</li>
-        <li> Nome: {{$student['voto']}}</li>
+        <li> Nome: {{ $student->nome }}</li>
+        <li> Nome: {{ $student->cognome }}</li>
+        <li> Nome: {{ $student->voto }}</li>
     </ul>
 
     @endforeach
