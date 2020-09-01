@@ -15,6 +15,7 @@ class UpdateStudentsTable extends Migration
     {
         Schema::table('students', function (Blueprint $table) {
             $table->integer('voto');
+            $table->string('nome_classe');
         });
     }
 
